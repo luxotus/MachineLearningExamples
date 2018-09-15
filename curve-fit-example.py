@@ -9,6 +9,7 @@ ydata = numpy.array([0.1,0.9,2.2,2.8,3.9,5.1])
 # Initial guess.
 x0    = numpy.array([0.0, 0.0, 0.0])
 
+# Data errors
 sigma = numpy.array([1.0,1.0,1.0,1.0,1.0,1.0])
 
 def model(x, a, b, c):
