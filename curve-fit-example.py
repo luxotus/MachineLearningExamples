@@ -7,7 +7,7 @@ xData = numpy.array([0.0,1.0,2.0,3.0,4.0,5.0])
 yData = numpy.array([0.1,0.9,2.2,2.8,3.9,5.1])
 
 # Initial guess.
-x0    = numpy.array([0.0, 0.0, 0.0])
+x0 = numpy.array([0.0, 0.0, 0.0])
 
 # Data errors
 sigma = numpy.array([1.0,1.0,1.0,1.0,1.0,1.0])
