@@ -1,8 +1,7 @@
 import numpy
 import scipy.optimize as optimization
 
-# Generate artificial data = straight line with a=0 and b=1
-# plus some noise.
+# Generate artificial data = straight line with a=0 and b=1 plus some noise.
 xData = numpy.array([0.0,1.0,2.0,3.0,4.0,5.0])
 yData = numpy.array([0.1,0.9,2.2,2.8,3.9,5.1])
 
